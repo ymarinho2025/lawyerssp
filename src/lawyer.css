@@ -1,28 +1,3 @@
-body {
-    background-color: #02033b;
-}
-
-.contato {
-    max-width: 2210px;
-    color: #ffffff;
-    background-color: #031e50;
-    padding: 5px;
-    font-weight: normal;
-    font-size: 115%;
-    margin-bottom: 10px;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-}
-
-a.contato:hover {
-    background-color: #003057;
-    border-radius: 5px;
-}
-
-.numero {
-    font-size: 70%;
-}
-
 .subtitulo {
     font-family: arial;
     font-size: 25px;
@@ -30,33 +5,22 @@ a.contato:hover {
     margin-top: -15px;
 }
 
-.bg {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 500px;
-    background-color: #02033b;
-    background-image: url('../assets/marinhossp.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-@media (max-width: 530px) {
-    .bg {
-        background-size: 150%; /* diminui a imagem */
-        margin-top: -11px;
-    }
-}
-
 .juramento {
     color: rgb(255, 238, 0);
 }
 
-.justica {
+.justica, .advocacia {
     color: white;
 }
 
-h2 {
+h2,.tem {
     text-align: center;
+    cursor: pointer;
+}
+
+h2:hover, .tem:hover {
+    transform: scale(1.10);
+    filter: drop-shadow(0 0 5px white);
 }
 
 p {
@@ -70,98 +34,5 @@ h2 {
 p {
     font-size: 20px;
     margin: 0 auto;
-    width: 65%;
-}
-
-ul {
-    padding-left: 0;
-}
-
-li {
-    list-style-position: inside;
-}
-
-a {
-    text-decoration: none;
-}
-
-.menu {
-    background-color: #031e50;
-    text-align: center;
-    width: 100%;
-}
-
-.menu li {
-    font-family: arial;
-    font-size: 20px;
-    list-style: none;
-    display: inline-block;
-    padding: 5px;
-}
-
-.menu a {
-    background-color: #031e50;
-    color: #cf9905;
-    padding: 15px;
-    display: block;
-}
-
-.menu a:hover {
-    border-radius: 5px;
-    background-color: #003057;
-}
-
-.btn-menu {
-    display: none;
-    background-color: #003057;
-    color: #cf9905;
-    padding: 15px 20px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    margin: 20px auto;
-    border-radius: 5px;
-}
-
-
-@media (max-width: 547px) {
-    body{
-        transform: scale(1);
-    }
-}
-/* Esconder menu e mostrar botão abaixo de 760px */
-@media (max-width: 760px) {
-
-    .menu {
-        display: none;
-    }
-
-    .btn-menu {
-        display: block
-    }
-
-    /* ativar menu pelo JS */
-    .menu.menu-ativo {
-        display: block;
-        margin-top: 10px;
-    }
-
-    .menu li {
-    display: flex;
-}
-
-.menu a {
-    background-color: #031e50;
-    color: #cf9905;
-    padding: 15px;
-    width: 100%;
-    display: block;
-}
-}
-
-
-.logo {
-    display: block;
-    margin: 20px auto;
     width: 65%;
 }
