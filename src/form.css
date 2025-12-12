@@ -1,0 +1,47 @@
+form {
+    text-align: center;
+}
+
+label {
+    color: white;
+    font-family: arial;
+}
+
+.resultado {
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 65%;
+}
+
+.google,
+.atendimento {
+    font-family: arial;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.google {
+    font-size: 30px;
+}
+
+.atendimento {
+    font-size: 25px;
+}
+
+.informacoes {
+    width: 200px;
+    margin: 0 auto;
+}
+
+legend {
+    color: white;
+    text-align: center;
+}
+
+fieldset {
+    transform: scale(1.36);
+}

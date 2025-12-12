@@ -2,6 +2,12 @@ body {
     background-color: #02033b;
 }
 
+.agendamento {
+    display: block;
+    margin: 20px auto;
+    width: 20%;
+}
+
 hr {
     width: 66%;
 }
@@ -20,5 +26,8 @@ hr {
     .bg {
         background-size: 150%; /* diminui a imagem */
         margin-top: -11px;
+    }
+    .agendamento {
+        width: 80%;
     }
 }

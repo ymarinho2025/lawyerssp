@@ -1,19 +1,26 @@
 <!---->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lawyers SP</title>
     <link rel="stylesheet" href="../src/lawyer.css">
     <link rel="stylesheet" href="../src/copyright.css">
+    <link rel="stylesheet" href="../src/form.css">
     <link rel="stylesheet" href="../src/menu.css">
+    <link rel="stylesheet" href="../src/info.css">
     <link rel="stylesheet" href="../src/logo.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <h1 class="contato"><i class="fa fa-whatsapp" aria-hidden="true"></i><a class="contato numero" href="https://api.whatsapp.com/send/?phone=5511947576485"target="_Blank">+55 (11) 94757-6485</a> | e-mail <a class="contato numero" href="mailto:sac@lawyer.com"target="_Blank">sac@lawyer.com</a></h1>
+    <h1 class="contato"><i class="fa fa-whatsapp" aria-hidden="true"></i><a class="contato numero"
+            href="https://api.whatsapp.com/send/?phone=5511947576485" target="_Blank">+55 (11) 94757-6485</a> | e-mail
+        <a class="contato numero" href="mailto:sac@lawyer.com" target="_Blank">sac@lawyer.com</a>
+    </h1>
     <button class="btn-menu" id="btn-menu">☰ Menu</button>
     <ul class="menu" id="menu">
         <li><a href="../">Inicial</a></li>
@@ -27,7 +34,47 @@
     <hr>
     <!---->
     
-<h4 class="copyright">COPYRIGHT MARINHO SOCIEDADE ADVOCACIA</h4>
-<script src="../src/script.js"></script>
+    <form action="https://www.google.com/search?q" method="get">
+        <h4 class="google"> pesquisa Google</h4>
+        <div>
+            <input type="text" value="Consultoria Gratuita" name="q">
+            <input type="submit" value="pesquisar">
+        </div>
+    </form>
+    <a href="https://api.whatsapp.com/send/?phone=5511947576485&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20agendamento%20com%20a%20Marinho%20Advocacia.%20Voc%C3%AA%20pode%20me%20ajudar%3F">
+        <img class="agendamento" src="../assets/agendamento_link.webp" alt="banner-atendimento-da-defensoria-na-camara">
+    </a>
+    <hr>
+
+    <!--FORMULARIO NOME/SOBRENOME/EMAIL-->
+    <h4 class="resultado" id="resultado"></h4>
+    <br></br>
+    <fieldset class="informacoes">
+        <legend>Informações</legend>
+        <form action="" method="post" id="myform">
+            <div>
+                <label for="nome">nome:</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div><label for="sobrenome">sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            <div><label for="email">email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <button type="submit" id="submitbtn">Enviar Dados</button>
+            </div>
+        </form>
+    </fieldset>
+    <br></br>
+    <hr>
+    <!--FIM DO FORMULARIO-->
+
+    <h4 class="copyright">COPYRIGHT MARINHO SOCIEDADE ADVOCACIA</h4>
+    <script src="../src/script.js" defer></script>
+    <script src="../src/form.js" defer></script>
+
 </body>
+
 </html>

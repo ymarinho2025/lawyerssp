@@ -7,7 +7,7 @@
     <title>Lawyers SP</title>
     <link rel="stylesheet" href="../src/lawyer.css">
     <link rel="stylesheet" href="../src/copyright.css">
-    <link rel="stylesheet" href="../src/info.css">
+    <link rel="stylesheet" href="../src/form.css">
     <link rel="stylesheet" href="../src/menu.css">
     <link rel="stylesheet" href="../src/logo.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400">
@@ -27,10 +27,35 @@
     <div class="bg"></div>
     <hr><br>
     <!---->
-    <h3 class="info1"><a href="../">Horário de Atendimento das 09:00 às 17:00</a></h3>
-    <h3 class="info2"><a href="mailto:sac@lawyer.com">Email: sac@lawyer.com</a></h3>
-    <h3 class="info3"><a href="https://api.whatsapp.com/send/?phone=5511947576485">Whatsapp +55 (11) 94757-6485</a></h3>
-    </br><hr>
+    <h4 class="atendimento centro">Horario de atendimento</h4>
+    <p class="horario google centro"><strong><a class="white" href="../consultoria/">das 09:00 às 17:00</a></strong></p>
+    <h4 class="atendimento centro"> Email: <a class="gold" href="mailto:sac@lawyer.com"target="_Blank">sac@lawyer.com</a></h4>
+    <h4 class="atendimento centro">Whatsapp <a class="gold" href="https://api.whatsapp.com/send/?phone=5511947576485">(55) 11 94757-6485</a></h4>
+    <!--FORMULARIO NOME/SOBRENOME/EMAIL-->
+    <h4 class="resultado" id="resultado"></h4>
+    <br></br>
+    <fieldset class="informacoes">
+        <legend>Informações</legend>
+        <form action="" method="post" id="myform">
+            <div>
+                <label for="nome">nome:</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div><label for="sobrenome">sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            <div><label for="email">email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <button type="submit" id="submitbtn">Enviar Dados</button>
+            </div>
+        </form>
+    </fieldset>
+    <br></br>
+    <hr>
+    <!--FIM DO FORMULARIO-->
+
 <h4 class="copyright">COPYRIGHT MARINHO SOCIEDADE ADVOCACIA</h4>
 <script src="../src/script.js"></script>
 </body>
