@@ -1,0 +1,18 @@
+.areas, .area {
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    width: 65%;
+}
+
+.areas {
+    margin: 1% 0 1% 17%
+}
+
+.area {
+    margin: 0 auto;
+}
+
+li {
+    padding: 5px;
+}

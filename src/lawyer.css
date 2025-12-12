@@ -23,15 +23,12 @@ h2:hover, .tem:hover {
     filter: drop-shadow(0 0 5px white);
 }
 
-p {
-    text-align: left;
-}
-
 h2 {
     font-size: 30px;
 }
 
 p {
+    text-align: left;
     font-size: 20px;
     margin: 0 auto;
     width: 65%;
