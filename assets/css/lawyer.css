@@ -1,0 +1,59 @@
+.subtitulo {
+    font-family: arial;
+    font-size: 25px;
+    color: white;
+    margin-top: -15px;
+}
+
+.centro {
+    margin: 0 auto;
+    text-align: center;
+    width: 65%;
+}
+a.gold {
+    color: #FFBB33;
+
+}
+
+a.white {
+    color: white;
+}
+
+.horario {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(2, 2, 167);
+    width: 300px;
+}
+.horario:hover {
+    filter: drop-shadow(0 0 5px #FFBB33);
+}
+.juramento {
+    color: rgb(255, 238, 0);
+}
+
+.justica, .advocacia {
+    color: white;
+}
+
+h2,.tem {
+    text-align: center;
+    cursor: pointer;
+}
+
+h2:hover, .tem:hover {
+    transform: scale(1.10);
+    filter: drop-shadow(0 0 5px white);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 65%;
+}

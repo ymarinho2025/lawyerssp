@@ -1,0 +1,44 @@
+body {
+    background-color: #02033b;
+}
+
+.agendamento {
+    display: block;
+    margin: 20px auto;
+    width: 20%;
+}
+
+hr {
+    width: 66%;
+}
+
+.bg {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 500px;
+    background-color: #02033b;
+    background-image: url('/assets/images/marinhossp.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 530px) {
+    .bg {
+        background-size: 150%; /* diminui a imagem */
+        margin-top: -11px;
+    }
+    .agendamento {
+        width: 80%;
+    }
+}
+
+.creator, a.creator {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+a.link {
+    color: yellow;
+}
